@@ -1,21 +1,18 @@
 //
-//  NotificationTableViewCell.swift
+//  NetworkTableViewCell.swift
 //  MySecondProject
 //
-//  Created by apple on 10/10/21.
+//  Created by apple on 12/10/21.
 //  Copyright © 2021 apple. All rights reserved.
 //
 
 import UIKit
 
-class NotificationTableViewCell: UITableViewCell {
+class NetworkTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var displayImage: UIImageView!
     
-    @IBOutlet weak var displayL1: UILabel!
-    
-    @IBOutlet weak var displayL2: UILabel!
+    @IBOutlet weak var displayNetwork: UILabel!
     
     
     override func awakeFromNib() {
